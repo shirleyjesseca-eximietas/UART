@@ -1,0 +1,17 @@
+#.cshrc
+
+setenv SNPSLMD_LICENSE_FILE 27020@vlsi
+
+setenv FLEXLM_DIAGNOSTICS 3
+
+setenv SYNOPSYS  /home/synopsys/tools/syn/W-2024.09-SP1    
+setenv PRIMETIME /home/synopsys/tools/prime/W-2024.09-SP1
+setenv VCS_HOME  /home/synopsys/tools/vcs/W-2024.09
+setenv VERDI_HOME /home/synopsys/tools/verdi/W-2024.09
+setenv SPYGLASS_HOME /home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME
+setenv VC_STATIC_HOME /home/synopsys/tools/vc_static/W-2024.09
+setenv ICV_HOME_DIR /home/synopsys/tools/icvalidator/W-2024.09-SP1
+setenv ZOIX_HOME /home/synopsys/tools/zoix/W-2024.09
+setenv UVM_HOME /home/synopsys/tools/vcs/W-2024.09/etc/uvm-1.2
+
+set path=( $SYNOPSYS/bin $PRIMETIME/bin $UVM_HOME/bin $ZOIX_HOME/bin $VCS_HOME/bin $VERDI_HOME/bin $VC_STATIC_HOME/bin $SPYGLASS_HOME/bin $ICV_HOME_DIR/bin /usr/local/bin /bin /sbin /lib /lib64 /usr/bin /usr/local/sbin /usr/bin/X11 /usr/X11R6/lib/X11 /usr/X11R6/bin . $path)
