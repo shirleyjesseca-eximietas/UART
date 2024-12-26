@@ -1,0 +1,4 @@
+\$unit::../rtl/design.sv::../rtl/uart_if.sv...@3372543314 02
+top4070
+uvm_custom_install_recording4070
+uvm_custom_install_verdi_recording4070

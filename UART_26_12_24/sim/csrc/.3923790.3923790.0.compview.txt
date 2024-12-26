@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1734949659.461612198, "rt":4.42, "ut":4.37, "st":0.23}}
+{"vcselab":{"timestamp_begin":1734949663.926586316, "rt":0.15, "ut":0.10, "st":0.03}}
+{"link":{"timestamp_begin":1734949664.098517965, "rt":0.23, "ut":0.16, "st":0.07}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1734949659.180157360}
+{"VCS_COMP_START_TIME": 1734949659.180157360}
+{"VCS_COMP_END_TIME": 1734949664.383152537}
+{"VCS_USER_OPTIONS": "-l vcs_test1.log -timescale=1ns/1ps -sverilog -ntb_opts uvm -debug_access+all -full64 -kdb -lca -P /home/synopsys/tools/verdi/W-2024.09/share/PLI/VCS/LINUX64/novas.tab /home/synopsys/tools/verdi/W-2024.09/share/PLI/VCS/LINUX64/pli.a ../rtl/design.sv ../rtl/uart_if.sv ../rtl/uart_register_file.sv ../rtl/uart_rx_fifo.sv ../rtl/uart_rx.sv ../rtl/uart_tx_fifo.sv ../rtl/uart_tx.sv +incdir+../verif/env +incdir+../verif/test +incdir+../verif/tx_agent +incdir+../verif/rx_agent ../verif/test/uart_pkg.sv ../verif/env/top.sv -cm line+cond+fsm+branch+tgl+assert -cm_dir coverage_comp_test1.vdb +define+COVERAGE +UVM_VERBOSITY=UVM_HIGH"}
+{"vcs1": {"peak_mem": 478172}}
+{"vcselab": {"peak_mem": 164732}}

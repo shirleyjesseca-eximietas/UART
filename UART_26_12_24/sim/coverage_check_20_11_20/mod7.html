@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="<username>"> <meta name="GENERATOR" content="urg/version [en] (platform name) [urg]">
+<title>Unified Coverage Report :: Module :: uart_tx_fifo</title>
+<link type="text/css" rel="stylesheet" href="css/.urg.css">
+<link type="text/css" rel="stylesheet" href="css/.layout.css">
+<link type="text/css" rel="stylesheet" href="css/.breadcrumb.css">
+<script type="text/javascript" src="js/.jquery.js"></script>
+<script type="text/javascript" src="js/.jquery-ui.js"></script>
+<script type="text/javascript" src="js/.sortable.js"></script>
+<script type="text/javascript" src="js/.layout.js"></script>
+<script type="text/javascript" src="js/.breadcrumb.js"></script>
+<script type="text/javascript">
+var layout, westLayout, centerLayout;
+$(document).ready(function () {
+  if ($("#north-bread-crumb")) {
+    $("#north-bread-crumb").jBreadCrumb({easing:'swing'})
+  }
+  layout = $("body").layout({ 
+    resizable: true,
+    spacing_open: 4,
+    spacing_closed: 4,
+    north: {
+      size: 76
+    },
+    south: {
+      size: 45,
+      initClosed: true
+    },
+    west: {
+      size: 500,
+      resizable: true,
+      initClosed: false
+    }
+  });
+  centerLayout = $('div.ui-layout-center').layout({
+    north__paneSelector: ".ui-layout-center-inner-north",
+    center__paneSelector: ".ui-layout-center-inner-center", 
+    north__size: 50,
+    spacing_open: 4,
+    spacing_closed: 4
+  });
+});
+</script>
+</head>
+<body onLoad="initPage();"><div class="ui-layout-north">
+<div class="logo"></div>
+<center class="pagetitle">Module Definition</center>
+<div align="center"><a href="dashboard.html" ><b>dashboard</b></a> | <a href="hierarchy.html" ><b>hierarchy</b></a> | <a href="modlist.html" ><b>modlist</b></a> | <a href="groups.html" ><b>groups</b></a> | <a href="tests.html" ><b>tests</b></a> | <a href="asserts.html" ><b>asserts</b></a></div>
+
+</div>
+<div class="ui-layout-west">
+<div name='tag_uart_tx_fifo'>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module : <a href="#"  onclick="showContent('tag_uart_tx_fifo')">uart_tx_fifo</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td>ASSERT</td></tr><tr>
+<td class="s4 cl rt"> 46.65</td>
+<td class="s4 cl rt"><a href="mod7.html#Line" > 44.44</a></td>
+<td class="s7 cl rt"><a href="mod7.html#Cond" > 75.00</a></td>
+<td class="s1 cl rt"><a href="mod7.html#Toggle" > 18.57</a></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod7.html#Branch" > 28.57</a></td>
+<td class="s6 cl rt"><a href="mod7.html#Assert" > 66.67</a></td>
+</tr></table><br clear=all>
+<span class=repname>Source File(s) : </span>
+<br clear=all>
+<a href="javascript:void(0);"  onclick="openSrcFile('/home/shirley/GIT_CHECKOUT/UART/UART_non_pulpino/sim/../rtl/uart_tx_fifo.sv')">/home/shirley/GIT_CHECKOUT/UART/UART_non_pulpino/sim/../rtl/uart_tx_fifo.sv</a><br clear=all>
+<br clear=all>
+<span class=repname>Module self-instances :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td>ASSERT</td></tr><tr>
+<td class="wht cl wordwrap"><a href="mod7.html#inst_tag_7"  onclick="showContent('inst_tag_7')">top.DUT.tx_channel.tx_fifo</a></td>
+<td class="s4 cl rt"> 46.65</td>
+<td class="s4 cl rt"><a href="mod7.html#Line" > 44.44</a></td>
+<td class="s7 cl rt"><a href="mod7.html#Cond" > 75.00</a></td>
+<td class="s1 cl rt"><a href="mod7.html#Toggle" > 18.57</a></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod7.html#Branch" > 28.57</a></td>
+<td class="s6 cl rt"><a href="mod7.html#Assert" > 66.67</a></td>
+</tr></table></div>
+</div>
+<br clear=all>
+<div name='tag_uart_tx_fifo'>
+<hr>
+<a name="inst_tag_7"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy.html#tag_urg_inst_7" >top.DUT.tx_channel.tx_fifo</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td>ASSERT</td></tr><tr>
+<td class="s4 cl rt"> 46.65</td>
+<td class="s4 cl rt"><a href="mod7.html#Line" > 44.44</a></td>
+<td class="s7 cl rt"><a href="mod7.html#Cond" > 75.00</a></td>
+<td class="s1 cl rt"><a href="mod7.html#Toggle" > 18.57</a></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod7.html#Branch" > 28.57</a></td>
+<td class="s6 cl rt"><a href="mod7.html#Assert" > 66.67</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td>ASSERT</td></tr><tr>
+<td class="s4 cl rt"> 46.65</td>
+<td class="s4 cl rt"> 44.44</td>
+<td class="s7 cl rt"> 75.00</td>
+<td class="s1 cl rt"> 18.57</td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 28.57</td>
+<td class="s6 cl rt"> 66.67</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td>ASSERT</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s2 cl rt"> 22.59</td>
+<td class="s0 cl rt">  9.90</td>
+<td class="s0 cl rt">  4.58</td>
+<td class="s1 cl rt"> 18.00</td>
+<td class="s0 cl rt">  0.00</td>
+<td class="s0 cl rt">  3.08</td>
+<td class="s10 cl rt">100.00</td>
+<td><a href="mod1.html#inst_tag_1" >tx_channel</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td>ASSERT</td></tr><tr>
+<td colspan=8>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<hr>
+Since this is the module's only instance, the coverage report is the same as for the module.</div>
+<div class="ui-layout-center">
+<div class="ui-layout-center-inner-center">
+<div name='tag_uart_tx_fifo'>
+<a name="Line"></a>
+Line Coverage for Module : <a href="mod7.html" >uart_tx_fifo</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="4" width="82">
+<tr><th></th><th>Line No.</th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s4"><td class="lf">TOTAL</td><td></td><td>18</td><td>8</td><td>44.44</td></tr>
+<tr class="s3"><td class="lf">ALWAYS</td><td>43</td><td>15</td><td>5</td><td>33.33</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>73</td><td>1</td><td>1</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>76</td><td>1</td><td>1</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>79</td><td>1</td><td>1</td><td>100.00</td></tr>
+</table>
+<pre class="code"><br clear=all>
+42                        begin
+43         1/1              if(rstn == 0) begin
+44         1/1                count &lt;= 0;
+45         1/1                ip_count &lt;= 0;
+46         1/1                op_count &lt;= 0;
+47                          end
+48                          else begin
+49         1/1                case({push, pop})
+50                              2'b01: begin
+51         <font color = "red">0/1     ==>                   if(count &gt; 0) begin</font>
+52         <font color = "red">0/1     ==>                     op_count &lt;= op_count + 1;</font>
+53         <font color = "red">0/1     ==>                     count &lt;= count - 1;</font>
+54                                       end
+                   <font color = "red">==>  MISSING_ELSE</font>
+55                                     end
+56                              2'b10: begin
+57         <font color = "red">0/1     ==>                   if(count &lt;= 5'hf) begin</font>
+58         <font color = "red">0/1     ==>                     ip_count &lt;= ip_count + 1;</font>
+59         <font color = "red">0/1     ==>                     data_fifo[ip_count] &lt;= data_in;</font>
+60         <font color = "red">0/1     ==>                     count &lt;= count + 1;</font>
+61                                       end
+                   <font color = "red">==>  MISSING_ELSE</font>
+62                                     end
+63                              2'b11: begin
+64         <font color = "red">0/1     ==>                   op_count &lt;= op_count + 1;</font>
+65         <font color = "red">0/1     ==>                   ip_count &lt;= ip_count + 1;</font>
+66         <font color = "red">0/1     ==>                   data_fifo[ip_count] &lt;= data_in;</font>
+67                                     end
+                        MISSING_DEFAULT
+68                            endcase
+69                          end
+70                        end
+71                      
+72                      always_comb
+73         1/1            data_out = data_fifo[op_count];
+74                      
+75                      always_comb
+76         1/1            fifo_empty = ~(|count);
+77                      
+78                      always_comb
+79         1/1            fifo_full = (count == 5'b10000);
+</pre>
+<hr>
+<a name="Cond"></a>
+Cond Coverage for Module : <a href="mod7.html" >uart_tx_fifo</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="3" width="82">
+<tr><th></th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s7"><td class="lf">Conditions</td><td>4</td><td>3</td><td>75.00</td></tr>
+<tr class="s7"><td class="lf">Logical</td><td>4</td><td>3</td><td>75.00</td></tr>
+<tr class="wht"><td class="lf">Non-Logical</td><td>0</td><td>0</td><td></td></tr>
+<tr class="wht"><td class="lf">Event</td><td>0</td><td>0</td><td></td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       43
+ EXPRESSION (rstn == 1'b0)
+            -------1------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       79
+ EXPRESSION (count == 5'b10000)
+            ---------1---------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uRed"><td>1</td><td class="lf">Not Covered</td></tr>
+</table>
+<hr>
+<a name="Toggle"></a>
+Toggle Coverage for Module : <a href="mod7.html" >uart_tx_fifo</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s0">
+<td>Totals</td>
+<td class="rt">11</td>
+<td class="rt">1</td>
+<td class="rt">9.09  </td>
+</tr><tr class="s1">
+<td>Total Bits</td>
+<td class="rt">70</td>
+<td class="rt">13</td>
+<td class="rt">18.57 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">35</td>
+<td class="rt">7</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s1">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">35</td>
+<td class="rt">6</td>
+<td class="rt">17.14 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s1">
+<td>Ports</td>
+<td class="rt">9</td>
+<td class="rt">1</td>
+<td class="rt">11.11 </td>
+</tr><tr class="s2">
+<td>Port Bits</td>
+<td class="rt">54</td>
+<td class="rt">13</td>
+<td class="rt">24.07 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">27</td>
+<td class="rt">7</td>
+<td class="rt">25.93 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">27</td>
+<td class="rt">6</td>
+<td class="rt">22.22 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s0">
+<td>Signals</td>
+<td class="rt">2</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+</tr><tr class="s0">
+<td>Signal Bits</td>
+<td class="rt">16</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+</tr><tr class="s0">
+<td nowrap>Signal Bits 0->1</td>
+<td class="rt">8</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+</tr><tr class="s0">
+<td nowrap>Signal Bits 1->0</td>
+<td class="rt">8</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Direction</td></tr><tr>
+<td>clk</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>rstn</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>push</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>pop</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>data_in[4:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>data_in[7:5]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>fifo_empty</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>fifo_full</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>count[4:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>data_out[7:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>OUTPUT</td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Signal Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td></tr><tr>
+<td>ip_count[3:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>op_count[3:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr></table><br clear=all>
+<hr>
+<a name="Branch"></a>
+Branch Coverage for Module : <a href="mod7.html" >uart_tx_fifo</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Line No.</th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s2">
+<td>Branches</td>
+<td></td>
+<td class="rt">7</td>
+<td class="rt">2</td>
+<td class="rt">28.57 </td>
+</tr><tr class="s2">
+<td>IF</td>
+<td class="rt">43</td>
+<td class="rt">7</td>
+<td class="rt">2</td>
+<td class="rt">28.57 </td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+43             if(rstn == 0) begin
+               <font color = "green">-1-</font>  
+44               count <= 0;
+           <font color = "green">      ==></font>
+45               ip_count <= 0;
+46               op_count <= 0;
+47             end
+48             else begin
+49               case({push, pop})
+                 <font color = "red">-2-</font>  
+50                 2'b01: begin
+51                          if(count > 0) begin
+                            <font color = "red">-3-</font>  
+52                            op_count <= op_count + 1;
+           <font color = "red">                   ==></font>
+53                            count <= count - 1;
+54                          end
+                            MISSING_ELSE
+           <font color = "red">                 ==></font>
+55                        end
+56                 2'b10: begin
+57                          if(count <= 5'hf) begin
+                            <font color = "red">-4-</font>  
+58                            ip_count <= ip_count + 1;
+           <font color = "red">                   ==></font>
+59                            data_fifo[ip_count] <= data_in;
+60                            count <= count + 1;
+61                          end
+                            MISSING_ELSE
+           <font color = "red">                 ==></font>
+62                        end
+63                 2'b11: begin
+64                          op_count <= op_count + 1;
+           <font color = "red">                 ==></font>
+65                          ip_count <= ip_count + 1;
+66                          data_fifo[ip_count] <= data_in;
+67                        end
+                          MISSING_DEFAULT
+           <font color = "green">               ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>-3-</th><th nowrap width=80>-4-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uRed">
+<td align=center>0</td>
+<td align=center>2'b01 </td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>0</td>
+<td align=center>2'b01 </td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>0</td>
+<td align=center>2'b10 </td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>0</td>
+<td align=center>2'b10 </td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>0</td>
+<td align=center>2'b11 </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>MISSING_DEFAULT</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<hr>
+<a name="Assert"></a>
+Assert Coverage for Module : <a href="mod7.html" >uart_tx_fifo</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Attempted</th><th nowrap width=80>Percent</th><th nowrap width=80>Succeeded/Matched</th><th nowrap width=80>Percent</th></tr><tr>
+<td class="wht cl"><a href="#335903897" >Assertions</a></td>
+<td class="wht cl rt">3</td>
+<td class="s10 cl rt">3</td>
+<td class="s10 cl rt">100.00</td>
+<td class="s6 cl rt">2</td>
+<td class="s6 cl rt">66.67 </td>
+</tr><tr>
+<td class="wht cl"><a href="#1207344466" >Cover properties</a></td>
+<td class="wht cl rt">0</td>
+<td class="wht cl rt">0</td>
+<td class="wht cl"></td>
+<td class="wht cl rt">0</td>
+<td class="wht cl"></td>
+</tr><tr>
+<td class="wht cl"><a href="#1300704019" >Cover sequences</a></td>
+<td class="wht cl rt">0</td>
+<td class="wht cl rt">0</td>
+<td class="wht cl"></td>
+<td class="wht cl rt">0</td>
+<td class="wht cl"></td>
+</tr><tr>
+<td class="wht cl"><b>Total</b></td>
+<td class="wht cl rt">3</td>
+<td class="s10 cl rt">3</td>
+<td class="s10 cl rt">100.00</td>
+<td class="s6 cl rt">2</td>
+<td class="s6 cl rt">66.67 </td>
+</tr></table><br clear=all>
+<br clear=all>
+<hr>
+<br clear=all>
+<a name="335903897"></a>
+<b>Assertion Details</b><br clear=all>
+<br clear=all>
+<table align=left class="sortable noborder">
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td>Attempts</td><td>Real Successes</td><td>Failures</td><td>Incomplete</td></tr><tr>
+<td class="wht cl"><a name="1739485028"></a>
+TX_FIFO_EMPTY_CHK</td>
+<td class="s9 cl rt">3125</td>
+<td class="s9 cl rt">3119</td>
+<td class="s9 cl rt">0</td>
+<td class="wht cl rt">0</td>
+</tr><tr>
+<td class="wht cl"><a name="579082790"></a>
+TX_FIFO_FULL_CHK</td>
+<td class="s9 cl rt">3125</td>
+<td class="s3 cl rt">0</td>
+<td class="s9 cl rt">0</td>
+<td class="wht cl rt">0</td>
+</tr><tr>
+<td class="wht cl"><a name="796746637"></a>
+TX_FIFO_OK_CHK</td>
+<td class="s9 cl rt">3125</td>
+<td class="s9 cl rt">2</td>
+<td class="s9 cl rt">0</td>
+<td class="wht cl rt">0</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center-inner-north">
+<div id="center-bread-crumb" class="breadCrumb module urg-margin-bottom">
+  <ul name="inst_tag_7">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Cond">Cond</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#Branch">Branch</a>    </li>
+    <li>
+      <a href="#Assert">Assert</a>    </li>
+  </ul>
+  <ul name="tag_uart_tx_fifo">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Cond">Cond</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#Branch">Branch</a>    </li>
+    <li>
+      <a href="#Assert">Assert</a>    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="ui-layout-south">
+<table align=center><tr><td class="s0 cl">0%</td>
+<td class="s1 cl">10%</td>
+<td class="s2 cl">20%</td>
+<td class="s3 cl">30%</td>
+<td class="s4 cl">40%</td>
+<td class="s5 cl">50%</td>
+<td class="s6 cl">60%</td>
+<td class="s7 cl">70%</td>
+<td class="s8 cl">80%</td>
+<td class="s9 cl">90%</td>
+<td class="s10 cl">100%</td></tr></table></div>
+</body>
+</html>

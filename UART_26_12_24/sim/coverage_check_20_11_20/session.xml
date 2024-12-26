@@ -1,0 +1,51 @@
+<session version="1.1" release="W-2024.09" timestp="2024-12-20 05:50:13 GMT">
+  <info>
+    <attr name="datetime" value="Fri Dec 20 11:20:39 2024
+"/>
+    <attr name="command" value="urg -dir coverage_comp_test1.vdb/ coverage_comp_test2.vdb/ -report coverage_check_20_11_20"/>
+    <attr name="top_instance" value="uvm_custom_install_recording,uvm_custom_install_verdi_recording,top,uvm_pkg,uart_pkg"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Line" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Cond" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Toggle" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="FSM" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Branch" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Assert" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Line" value="257/846" />
+    <metric name="Cond" value="218/600" />
+    <metric name="Toggle" value="274/1406" />
+    <metric name="FSM" value="10/66" />
+    <metric name="Branch" value="120/436" />
+    <metric name="Assert" value="3/11" />
+    <metric name="Group" value="0%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="uart_pkg::tx_subscriber::uart_tx_coverage">
+      <metric name="Group" value="0%" />
+    </scope>
+  </scope>
+  <scope type="assert" name="Statistics">
+    <scorelist type="total" name="Design Hierarchy Assert">
+      <score name="Assert" value="3/11" />
+      <score name="Score" value="27.27" />
+    </scorelist>
+    <scorelist type="total" name="Module List Assert">
+      <score name="Assert" value="3/11" />
+      <score name="Score" value="27.27" />
+    </scorelist>
+    <scorelist type="total" name="Assertion">
+      <score name="Assert" value="3/11" />
+      <score name="Score" value="27.27" />
+    </scorelist>
+  </scope>
+  </old_coverage>
+</session>
