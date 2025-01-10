@@ -1,0 +1,5 @@
+{"vcs1":{"timestamp_begin":1733830459.214948268, "rt":0.10, "ut":0.02, "st":0.02}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1733830459.092822034}
+{"VCS_COMP_START_TIME": 1733830459.092822034}
+{"VCS_COMP_END_TIME": 1733830459.337559734}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -debug_access+all -ntb_opts uvm +incdir+/home/synopsys/tools/vcs/W-2024.09/etc/uvm-1.2/src /home/synopsys/tools/vcs/W-2024.09/etc/uvm-1.2/src/uvm.sv +incdir+/home/shirley/CHECKOUT/DV_VLSI/UART_non_pulpino//src +incdir+/home/shirley/CHECKOUT/DV_VLSI/UART_non_pulpino//verif -f /home/shirley/CHECKOUT/DV_VLSI/UART_non_pulpino//sim/file.f"}

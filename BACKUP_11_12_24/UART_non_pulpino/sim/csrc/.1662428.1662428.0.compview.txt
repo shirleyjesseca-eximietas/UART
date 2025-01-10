@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1733718610.754908198, "rt":4.45, "ut":4.22, "st":0.10}}
+{"vcselab":{"timestamp_begin":1733718615.239445372, "rt":0.15, "ut":0.10, "st":0.03}}
+{"link":{"timestamp_begin":1733718615.410954569, "rt":0.47, "ut":0.34, "st":0.10}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1733718610.633518131}
+{"VCS_COMP_START_TIME": 1733718610.633518131}
+{"VCS_COMP_END_TIME": 1733718615.921416459}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -debug_access+all -ntb_opts uvm +incdir+/home/synopsys/tools/vcs/W-2024.09/etc/uvm-1.2/src /home/synopsys/tools/vcs/W-2024.09/etc/uvm-1.2/src/uvm.sv +incdir+/home/shirley/work_space/DV_VLSI/UART_non_pulpino/src +incdir+/home/shirley/work_space/DV_VLSI/UART_non_pulpino/verif -f /home/shirley/work_space/DV_VLSI/UART_non_pulpino/sim/file.f"}
+{"vcs1": {"peak_mem": 357032}}
+{"vcselab": {"peak_mem": 164716}}

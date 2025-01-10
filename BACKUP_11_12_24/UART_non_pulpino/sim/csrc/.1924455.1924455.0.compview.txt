@@ -1,0 +1,6 @@
+Command exited with non-zero status 1
+{"vcs1":{"timestamp_begin":1733830188.830217254, "rt":0.05, "ut":0.00, "st":0.01}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1733830188.703704964}
+{"VCS_COMP_START_TIME": 1733830188.703704964}
+{"VCS_COMP_END_TIME": 1733830188.910552484}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -debug_access+all -ntb_opts uvm +incdir+/home/synopsys/tools/vcs/W-2024.09/etc/uvm-1.2/src /home/synopsys/tools/vcs/W-2024.09/etc/uvm-1.2/src/uvm.sv +incdir+/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/src +incdir+/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/verif -f /home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim/file.f"}

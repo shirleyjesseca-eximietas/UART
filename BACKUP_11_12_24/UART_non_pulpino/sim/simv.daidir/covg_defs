@@ -1,0 +1,132 @@
+global coverage_group 0 0 uart_pkg::uart_tx_scoreboard::uart_tx_cov __coverage_uart_tx_scoreboard.uart_tx_cov unused_uart_tx_scoreboard_uart_tx_cov_loop_label uart_pkg 0 1 0 0 0  ( 0 
+)
+ 1 1
+ 0 78 /home/shirley/work_space/DV_VLSI/UART_non_pulpino/verif/env/uart_scoreboard.sv
+ 13 0 0 0 1 0 0 0 0  1
+0
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 64 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn_e
+ 0
+0
+0
+0
+64
+0
+ 0
+
+4
+0
+1
+0
+ 8 PADDR_CG 16 0 0 0 0 0 0 62 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn 62 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 32 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 11 valid_addrs 17 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 64 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn_0 0 64 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn_1 0 0 0 0 0
+ 0
+
+ 9 PWDATA_CG 20 0 0 0 0 0 0 64 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn_2 64 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn_2 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 32 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 3 1 1 0 0 1 1 3 low 21 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 64 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn_3 0 64 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn_4 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 3 mid 22 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 64 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn_5 0 64 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn_6 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 high 23 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 64 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn_7 0 64 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn_8 0 0 0 0 0
+ 0
+
+ 6 TXD_CG 26 0 0 0 0 0 0 64 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn_9 64 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn_9 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 9 tx_values 27 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 64 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn_a 0 64 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn_b 0 0 0 0 0
+ 0
+
+ 6 IRQ_CG 30 0 0 0 0 0 0 64 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn_c 64 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn_c 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 8 asserted 31 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 64 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn_d 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 10 deasserted 32 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 64 uart_tx_scoreboard::uart_pkg_uart_tx_scoreboard_uart_tx_cov_fn_a 0 0 0 0 0 0 0
+ 0
+
+ 14 uart_tx_cov_cc 0 35 0 0 -1 0 0 0 0 3 0 1 2 0 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+end_coverage_group
