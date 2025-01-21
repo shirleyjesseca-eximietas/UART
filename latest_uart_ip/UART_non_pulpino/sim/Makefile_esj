@@ -1,0 +1,202 @@
+# Variables
+FSDB = /home/synopsys/tools/verdi/W-2024.09/share/PLI/VCS/LINUX64
+RTL = ../rtl/*
+work = work # Library name
+SVTB1 = ../verif/env/top.sv
+INC = +incdir+../verif/env +incdir+../verif/test +incdir+../verif/tx_agent +incdir+../verif/rx_agent
+SVTB2 = ../verif/test/uart_pkg.sv
+VSIMOPT = -vopt -voptargs=+acc
+VSIMCOV = -cm line+cond+fsm+branch+tgl+assert #+func
+
+# Help target
+help:
+	@echo =============================================================================================================
+	@echo "! USAGE   	--  make target                             							!"
+	@echo "! clean   	=>  Clean the earlier log and intermediate files.       					!"
+	@echo "! sv_cmp    	=>  Create library and compile the code.                   					!"
+	@echo "! run_testX	=>  Clean, compile & run simulation for a specific test in batch mode.		!"
+	@echo "! regress    =>  Clean, compile and run all testcases in batch mode						!"
+	@echo "! report     =>  Merge coverage reports for all testcases and convert to HTML format				!"
+	@echo "! fun_cov    =>  Open the merged functional coverage report in HTML format					!"
+	@echo "! code_cov   =>  Open the merged code coverage report in HTML format 						!"
+	@echo "! view_waveX =>  View the waveform of a specific test                                                     	!"
+	@echo ====================================================================================================================
+
+# Compilation target
+sv_cmp1:
+	vcs -l vcs_test1.log -timescale=1ns/1ps -sverilog -ntb_opts uvm -debug_access+all -full64 -kdb -lca \
+	    -P $(FSDB)/novas.tab $(FSDB)/pli.a $(RTL) $(INC) $(SVTB2) $(SVTB1) $(VSIMCOV) -cm_dir coverage_comp_test1.vdb +define+COVERAGE +UVM_VERBOSITY=UVM_HIGH #-cm_dir coverage_compile.vdb
+
+sv_cmp2:
+	vcs -l vcs_test2.log -timescale=1ns/1ps -sverilog -ntb_opts uvm -debug_access+all -full64 -kdb -lca \
+	    -P $(FSDB)/novas.tab $(FSDB)/pli.a $(RTL) $(INC) $(SVTB2) $(SVTB1) $(VSIMCOV) -cm_dir coverage_comp_test2.vdb +define+COVERAGE +UVM_VERBOSITY=UVM_HIGH
+
+sv_cmp3:
+	vcs -l vcs_test3.log -timescale=1ns/1ps -sverilog -ntb_opts uvm -debug_access+all -full64 -kdb -lca \
+	    -P $(FSDB)/novas.tab $(FSDB)/pli.a $(RTL) $(INC) $(SVTB2) $(SVTB1) $(VSIMCOV) -cm_dir coverage_comp_test3.vdb +define+COVERAGE +UVM_VERBOSITY=UVM_HIGH
+
+sv_cmp4:
+	vcs -l vcs_test4.log -timescale=1ns/1ps -sverilog -ntb_opts uvm -debug_access+all -full64 -kdb -lca \
+	    -P $(FSDB)/novas.tab $(FSDB)/pli.a $(RTL) $(INC) $(SVTB2) $(SVTB1) $(VSIMCOV) -cm_dir coverage_comp_test4.vdb +define+COVERAGE +UVM_VERBOSITY=UVM_HIGH
+
+sv_cmp5:
+	vcs -l vcs_test5.log -timescale=1ns/1ps -sverilog -ntb_opts uvm -debug_access+all -full64 -kdb -lca \
+	    -P $(FSDB)/novas.tab $(FSDB)/pli.a $(RTL) $(INC) $(SVTB2) $(SVTB1) $(VSIMCOV) -cm_dir coverage_comp_test5.vdb +define+COVERAGE +UVM_VERBOSITY=UVM_HIGH
+
+sv_cmp6:
+	vcs -l vcs_test6.log -timescale=1ns/1ps -sverilog -ntb_opts uvm -debug_access+all -full64 -kdb -lca \
+	    -P $(FSDB)/novas.tab $(FSDB)/pli.a $(RTL) $(INC) $(SVTB2) $(SVTB1) $(VSIMCOV) -cm_dir coverage_comp_test6.vdb +define+COVERAGE +UVM_VERBOSITY=UVM_HIGH
+
+sv_cmp7:
+	vcs -l vcs_test7.log -timescale=1ns/1ps -sverilog -ntb_opts uvm -debug_access+all -full64 -kdb -lca \
+	    -P $(FSDB)/novas.tab $(FSDB)/pli.a $(RTL) $(INC) $(SVTB2) $(SVTB1) $(VSIMCOV) -cm_dir coverage_comp_test7.vdb +define+COVERAGE +UVM_VERBOSITY=UVM_HIGH
+
+
+sv_cmp8:
+	vcs -l vcs_test8.log -timescale=1ns/1ps -sverilog -ntb_opts uvm -debug_access+all -full64 -kdb -lca \
+	    -P $(FSDB)/novas.tab $(FSDB)/pli.a $(RTL) $(INC) $(SVTB2) $(SVTB1) $(VSIMCOV) -cm_dir coverage_comp_test8.vdb +define+COVERAGE +UVM_VERBOSITY=UVM_HIGH
+
+sv_cmp9:
+	vcs -l vcs_test9.log -timescale=1ns/1ps -sverilog -ntb_opts uvm -debug_access+all -full64 -kdb -lca \
+	    -P $(FSDB)/novas.tab $(FSDB)/pli.a $(RTL) $(INC) $(SVTB2) $(SVTB1) $(VSIMCOV) -cm_dir coverage_comp_test9.vdb +define+COVERAGE +UVM_VERBOSITY=UVM_HIGH
+
+sv_cmp10:
+	vcs -l vcs_test10.log -timescale=1ns/1ps -sverilog -ntb_opts uvm -debug_access+all -full64 -kdb -lca \
+	    -P $(FSDB)/novas.tab $(FSDB)/pli.a $(RTL) $(INC) $(SVTB2) $(SVTB1) $(VSIMCOV) -cm_dir coverage_comp_test10.vdb +define+COVERAGE +UVM_VERBOSITY=UVM_HIGH
+
+sv_cmp11:
+	vcs -l vcs_test11.log -timescale=1ns/1ps -sverilog -ntb_opts uvm -debug_access+all -full64 -kdb -lca \
+	    -P $(FSDB)/novas.tab $(FSDB)/pli.a $(RTL) $(INC) $(SVTB2) $(SVTB1) $(VSIMCOV) -cm_dir coverage_comp_test11.vdb +define+COVERAGE +UVM_VERBOSITY=UVM_HIGH
+
+sv_cmp12:
+	vcs -l vcs_test12.log -timescale=1ns/1ps -sverilog -ntb_opts uvm -debug_access+all -full64 -kdb -lca \
+	    -P $(FSDB)/novas.tab $(FSDB)/pli.a $(RTL) $(INC) $(SVTB2) $(SVTB1) $(VSIMCOV) -cm_dir coverage_comp_test12.vdb +define+COVERAGE +UVM_VERBOSITY=UVM_HIGH
+
+sv_cmp13:
+	vcs -l vcs_test13.log -timescale=1ns/1ps -sverilog -ntb_opts uvm -debug_access+all -full64 -kdb -lca \
+	    -P $(FSDB)/novas.tab $(FSDB)/pli.a $(RTL) $(INC) $(SVTB2) $(SVTB1) $(VSIMCOV) -cm_dir coverage_comp_test13.vdb +define+COVERAGE +UVM_VERBOSITY=UVM_HIGH
+
+sv_cmp14:
+	vcs -l vcs_test14.log -timescale=1ns/1ps -sverilog -ntb_opts uvm -debug_access+all -full64 -kdb -lca \
+	    -P $(FSDB)/novas.tab $(FSDB)/pli.a $(RTL) $(INC) $(SVTB2) $(SVTB1) $(VSIMCOV) -cm_dir coverage_comp_test14.vdb +define+COVERAGE +UVM_VERBOSITY=UVM_HIGH
+
+
+
+
+
+
+#./simv -cm line+cond+fsm+tgl+branch -cm_name test1 -cm_dir ./cov_report +UVM_TESTNAME=uart_tx_single_byte_test
+
+# Run individual tests with separate coverage directories
+run_test1: sv_cmp1
+	./simv -l vcs_test1.log +fsdbfile+wave1.fsdb +ntb_random_seed_automatic +UVM_TESTNAME=uart_tx_single_byte_test -cm_name test1 +TESTCASE=uart_tx_single_byte_test  
+	python3 regress_testcase.py vcs_test1.log
+
+run_test2: sv_cmp2
+	./simv -l vcs_test2.log +fsdbfile+wave2.fsdb +ntb_random_seed_automatic +UVM_TESTNAME=uart_rx_single_byte_test -cm_name test2 +TESTCASE=uart_rx_single_byte_test  
+	python3 regress_testcase.py vcs_test2.log
+
+run_test3: sv_cmp3
+	./simv -l vcs_test3.log +fsdbfile+wave3.fsdb +ntb_random_seed_automatic +UVM_TESTNAME=uart_rx_multi_data_test $(VSIMCOV) -cm_name test3 +TESTCASE=uart_rx_multi_data_test 
+	python3 regress_testcase.py vcs_test3.log
+
+run_test4: sv_cmp4
+	./simv -l vcs_test4.log +fsdbfile+wave4.fsdb +ntb_random_seed_automatic +UVM_TESTNAME=uart_rx_stop_bit_test $(VSIMCOV) -cm_name test4 +TESTCASE=uart_rx_stop_bit_test
+	python3 regress_testcase.py vcs_test4.log	
+
+run_test5: sv_cmp5
+	./simv -l vcs_test5.log +fsdbfile+wave5.fsdb +ntb_random_seed_automatic +UVM_TESTNAME=uart_rx_parity_err_test $(VSIMCOV) -cm_name test5 +TESTCASE=uart_rx_parity_err_test
+	python3 regress_testcase.py vcs_test5.log	
+
+run_test6: sv_cmp6
+	./simv -l vcs_test6.log +fsdbfile+wave6.fsdb +ntb_random_seed_automatic +UVM_TESTNAME=uart_rx_fifo_overflow_test $(VSIMCOV) -cm_name test6 +TESTCASE=uart_rx_fifo_overflow_test
+	python3 regress_testcase.py vcs_test6.log	
+
+run_test7: sv_cmp7
+	./simv -l vcs_test7.log +fsdbfile+wave7.fsdb +ntb_random_seed_automatic +UVM_TESTNAME=uart_tx_multi_byte_test $(VSIMCOV) -cm_name test7 +TESTCASE=uart_tx_multi_byte_test 
+	python3 regress_testcase.py vcs_test7.log	
+
+run_test8: sv_cmp8
+	./simv -l vcs_test8.log +fsdbfile+wave8.fsdb +ntb_random_seed_automatic +UVM_TESTNAME=uart_tx_fifo_full_test $(VSIMCOV) -cm_name test8 +TESTCASE=uart_tx_fifo_full_test
+	python3 regress_testcase.py vcs_test8.log	
+
+run_test9: sv_cmp9
+	./simv -l vcs_test9.log +fsdbfile+wave9.fsdb +ntb_random_seed_automatic +UVM_TESTNAME=uart_tx_int_with_iir_test $(VSIMCOV) -cm_name test9 +TESTCASE=uart_tx_int_with_iir_test
+	python3 regress_testcase.py vcs_test9.log	
+
+run_test10: sv_cmp10
+	./simv -l vcs_test10.log +fsdbfile+wave10.fsdb +ntb_random_seed_automatic +UVM_TESTNAME=uart_tx_stop_bit_config_test $(VSIMCOV) -cm_name test10 +TESTCASE=uart_tx_stop_bit_config_test
+	python3 regress_testcase.py vcs_test10.log	
+
+run_test11: sv_cmp11
+	./simv -l vcs_test11.log +fsdbfile+wave11.fsdb +ntb_random_seed_automatic +UVM_TESTNAME=uart_loopback_test $(VSIMCOV) -cm_name test11 +TESTCASE=uart_loopback_test  
+	python3 regress_testcase.py vcs_test11.log
+
+run_test12: sv_cmp12
+	./simv -l vcs_test12.log +fsdbfile+wave12.fsdb +ntb_random_seed_automatic +UVM_TESTNAME=uart_tx_baud_rate_config_test $(VSIMCOV) -cm_name test12 +TESTCASE=uart_tx_baud_rate_config_test  
+	python3 regress_testcase.py vcs_test12.log
+
+run_test13: sv_cmp13
+	./simv -l vcs_test13.log +fsdbfile+wave13.fsdb +ntb_random_seed_automatic +UVM_TESTNAME=uart_tx_odd_parity_test $(VSIMCOV) -cm_name test13 +TESTCASE=uart_tx_odd_parity_test  
+	python3 regress_testcase.py vcs_test13.log
+
+run_test14: sv_cmp14
+	./simv -l vcs_test14.log +fsdbfile+wave14.fsdb +ntb_random_seed_automatic +UVM_TESTNAME=uart_loopback_2_test $(VSIMCOV) -cm_name test14 +TESTCASE=uart_loopback_2_test  
+	python3 regress_testcase.py vcs_test14.log
+
+
+
+# Clean target
+clean:
+	rm -rf simv* csrc* *.tmp *.vpd *.vdb *.key *.log *hdrs.h *.fsdb verdi* coverage_report coverage *.log DVE*
+	clear
+
+# View waveforms
+view_wave1:
+	verdi -ssf wave1.fsdb
+
+view_wave2:
+	verdi -ssf wave2.fsdb
+
+view_wave3:
+	verdi -ssf wave3.fsdb
+
+view_wave4:
+	verdi -ssf wave4.fsdb
+
+view_wave5:
+	verdi -ssf wave5.fsdb
+
+view_wave6:
+	verdi -ssf wave6.fsdb
+
+report:
+	#urg -dir simv.vdb -report coverage_report -format both
+	#urg -dir ./coverage_compile.vdb -dbname merged_dir/merged
+	urg -dir coverage_comp_test1.vdb/ coverage_comp_test2.vdb/ coverage_comp_test3.vdb/  coverage_comp_test4.vdb/  coverage_comp_test5.vdb/  coverage_comp_test6.vdb/  coverage_comp_test7.vdb/  coverage_comp_test8.vdb/  coverage_comp_test9.vdb/  coverage_comp_test10.vdb/  coverage_comp_test11.vdb/  coverage_comp_test12.vdb/ coverage_comp_test13.vdb/ coverage_comp_test14.vdb/ -dbname merged_dir/merged
+
+
+# Regression target
+regress:run_test1 run_test2 run_test3 run_test4 run_test5 run_test6 run_test7 run_test8 run_test9 run_test10 run_test11 run_test12 run_test13 run_test14
+
+func_cov:
+	urg -dir coverage_comp_test1.vdb/ coverage_comp_test2.vdb/ coverage_comp_test3.vdb/  coverage_comp_test4.vdb/  coverage_comp_test5.vdb/  coverage_comp_test6.vdb/  coverage_comp_test7.vdb/  coverage_comp_test8.vdb/  coverage_comp_test9.vdb/  coverage_comp_test10.vdb/  coverage_comp_test11.vdb/  coverage_comp_test12.vdb/ coverage_comp_test13.vdb/ coverage_comp_test14.vdb/ -report full_cov_report
+
+open_report:
+	firefox full_cov_report/dashboard.html
+
+
+# Open functional coverage report
+#fun_cov:
+#	firefox coverage_report/grp*.html &
+
+# Open code coverage report
+code_cov:
+	#firefox coverage_report/dashboard.html
+	verdi -cov -covdir merged_dir.vdb
+
+
+wave:
+	dve -full64 -vpd uart_new.vpd
+	
+

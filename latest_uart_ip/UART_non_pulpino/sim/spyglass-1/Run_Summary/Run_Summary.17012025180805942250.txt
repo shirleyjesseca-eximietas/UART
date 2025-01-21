@@ -1,0 +1,14 @@
+Date Created     : 17-01-2025 18:08:05
+SpyGlass Version : SpyGlass_vW-2024.09
+Project Name     : spyglass-1
+Goal Name        : lint/lint_rtl
+Scenario Name    : default_scenario
+Top              : 
+
+Message Summary
+Severity   Non-Waived  Waived
+FATAL           0         0
+ERROR           2         0
+WARNING        53         0
+INFO            3         0
+

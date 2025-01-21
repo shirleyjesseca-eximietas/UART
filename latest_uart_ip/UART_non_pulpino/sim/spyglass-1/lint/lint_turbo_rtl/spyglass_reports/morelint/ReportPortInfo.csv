@@ -1,0 +1,45 @@
+Module Name,Module Type,Port Name,Direction,Width,Index,Comment Source,Comment 
+jtag_idcode,Top_Level,clk,INPUT,1,-,-,-
+jtag_idcode,Top_Level,rst,INPUT,1,-,-,-
+jtag_idcode,Top_Level,tms,INPUT,1,-,-,-
+jtag_idcode,Top_Level,tdi,INPUT,1,-,-,-
+jtag_idcode,Top_Level,mode,INPUT,1,-,-,-
+jtag_idcode,Top_Level,parallel_in1,INPUT,1,-,-,-
+jtag_idcode,Top_Level,parallel_in2,INPUT,1,-,-,-
+jtag_idcode,Top_Level,parallel_in3,INPUT,1,-,-,-
+jtag_idcode,Top_Level,parallel_in4,INPUT,1,-,-,-
+jtag_idcode,Top_Level,parallel_in5,INPUT,1,-,-,-
+jtag_idcode,Top_Level,parallel_in6,INPUT,1,-,-,-
+jtag_idcode,Top_Level,serial_in1,INPUT,1,-,-,-
+jtag_idcode,Top_Level,serial_in2,INPUT,1,-,-,-
+jtag_idcode,Top_Level,serial_in3,INPUT,1,-,-,-
+jtag_idcode,Top_Level,serial_in4,INPUT,1,-,-,-
+jtag_idcode,Top_Level,serial_in5,INPUT,1,-,-,-
+jtag_idcode,Top_Level,serial_in6,INPUT,1,-,-,-
+jtag_idcode,Top_Level,clamp_en,INPUT,1,-,-,-
+jtag_idcode,Top_Level,SI,INPUT,1,-,-,-
+jtag_idcode,Top_Level,PI,INPUT,1,-,-,-
+jtag_idcode,Top_Level,tdo,OUTPUT,1,-,-,-
+jtag_idcode,Top_Level,si,INPUT,1,-,module port,input [14:0] MBIST_PI,
+jtag_idcode,Top_Level,data,INPUT,8,[7:0],-,-
+jtag_idcode,Top_Level,data_out,OUTPUT,8,[7:0],-,-
+jtag_idcode,Top_Level,we,INPUT,1,-,-,-
+jtag_idcode,Top_Level,waddr,INPUT,3,[2:0],-,-
+jtag_idcode,Top_Level,raddr,INPUT,3,[2:0],-,-
+jtag_idcode,Top_Level,parallel_clamp1,OUTPUT,1,-,module port,output reg [14:0] MBIST_PO,
+jtag_idcode,Top_Level,parallel_clamp2,OUTPUT,1,-,module port,output reg [14:0] MBIST_PO,
+jtag_idcode,Top_Level,parallel_clamp3,OUTPUT,1,-,module port,output reg [14:0] MBIST_PO,
+jtag_idcode,Top_Level,parallel_out1,OUTPUT,1,-,-,-
+jtag_idcode,Top_Level,parallel_out2,OUTPUT,1,-,-,-
+jtag_idcode,Top_Level,parallel_out3,OUTPUT,1,-,-,-
+jtag_idcode,Top_Level,parallel_out4,OUTPUT,1,-,-,-
+jtag_idcode,Top_Level,parallel_out5,OUTPUT,1,-,-,-
+jtag_idcode,Top_Level,parallel_out6,OUTPUT,1,-,-,-
+jtag_idcode,Top_Level,serial_out1,OUTPUT,1,-,-,-
+jtag_idcode,Top_Level,serial_out2,OUTPUT,1,-,-,-
+jtag_idcode,Top_Level,serial_out3,OUTPUT,1,-,-,-
+jtag_idcode,Top_Level,serial_out4,OUTPUT,1,-,-,-
+jtag_idcode,Top_Level,serial_out5,OUTPUT,1,-,-,-
+jtag_idcode,Top_Level,serial_out6,OUTPUT,1,-,-,-
+jtag_idcode,Top_Level,ns,OUTPUT,4,[3:0],-,-
+jtag_idcode,Top_Level,ps,OUTPUT,4,[3:0],-,-

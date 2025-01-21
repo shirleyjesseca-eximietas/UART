@@ -1,0 +1,2 @@
+setenv UART_HOME $PWD
+echo $PWD

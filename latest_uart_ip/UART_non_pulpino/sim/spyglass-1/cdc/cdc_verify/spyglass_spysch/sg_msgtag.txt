@@ -1,0 +1,20 @@
+2 "ErrorAnalyzeBBox" 2
+"BBoxEng"
+["jtag_idcode","BB_SYNTH_ERR"]
+"BBoxEngAuxiInfo"
+["(null)","(null)","(null)"]
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ErrorAnalyzeBBox" 2
+"RULEGROUP"
+["Blackbox Resolution"]
+"BUILTIN"
+"1"

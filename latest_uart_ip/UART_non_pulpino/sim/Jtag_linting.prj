@@ -1,0 +1,30 @@
+#!SPYGLASS_PROJECT_FILE
+#!VERSION 3.0
+#  -------------------------------------------------------------------
+#  This is a software generated project file. Manual edits to this file could be lost during the next save operation
+#  Copyright Synopsys Inc.
+#  Last Updated By: SpyGlass SpyGlass_vW-2024.09
+#  Last Updated On Fri Jan 17 18:06:57 2025
+#
+#  -------------------------------------------------------------------
+
+##Data Import Section
+
+read_file -type verilog ../../Jtag/src/boundary.v
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog ../../Jtag/src/jtag.v
+#BackRefFile:N.A. #LineNumber:1
+
+##Common Options Section
+
+set_option projectwdir .
+set_option language_mode mixed
+set_option designread_enable_synthesis no
+set_option designread_disable_flatten no
+set_option active_methodology $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff
+
+
+##Goal Setup Section
+
+current_methodology $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff
+

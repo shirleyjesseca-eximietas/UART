@@ -1,0 +1,160 @@
+9 "STARC05-2.1.5.3" 1
+"SPG_MSGTAG_HIERARCHY"
+":jtag_idcode"
+10 "STARC05-2.1.5.3" 1
+"SPG_MSGTAG_HIERARCHY"
+":jtag_idcode"
+11 "STARC05-2.10.3.2a" 1
+"SPG_MSGTAG_HIERARCHY"
+":jtag_idcode"
+13 "sim_race02" 2
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["2@@368","2@@539"]
+14 "sim_race02" 2
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["2@@574","2@@595"]
+15 "sim_race02" 2
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["2@@578","2@@595"]
+16 "sim_race02" 2
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["2@@368","2@@618"]
+17 "sim_race02" 2
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["2@@368","2@@735"]
+18 "sim_race02" 2
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["2@@368","2@@821"]
+41 "ErrorAnalyzeBBox" 2
+"BBoxEng"
+["jtag_idcode","BB_SYNTH_ERR"]
+"BBoxEngAuxiInfo"
+["(null)","(null)","(null)"]
+-1 "CMD_overloadrule01" 2
+"RULEGROUP"
+["Command-line read"]
+"BUILTIN"
+"1"
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ErrorAnalyzeBBox" 2
+"RULEGROUP"
+["Blackbox Resolution"]
+"BUILTIN"
+"1"
+-1 "ReportPortInfo-ML" 3
+"TEMPLATE"
+["lint/lint_rtl_enhanced"]
+"RULE_ORDER"
+[28]
+"RULEGROUP"
+["morelint"]
+-1 "STARC05-1.1.1.1" 3
+"TEMPLATE"
+["lint/lint_rtl_enhanced"]
+"RULE_ORDER"
+[37]
+"RULEGROUP"
+["starc2005/s05_Lexical_Rules","starc2005/s05_Naming/s05_Naming2","starc2005/Basic_Design_Constraint_05"]
+-1 "STARC05-2.1.4.5" 3
+"TEMPLATE"
+["lint/lint_rtl_enhanced"]
+"RULE_ORDER"
+[44]
+"RULEGROUP"
+["starc2005/s05_Quality/s05_Quality1","starc2005/RTL_Description_Technique_05"]
+-1 "STARC05-2.1.5.3" 3
+"TEMPLATE"
+["lint/lint_rtl_enhanced"]
+"RULE_ORDER"
+[45]
+"RULEGROUP"
+["starc2005/s05_Quality/s05_Quality1","starc2005/RTL_Description_Technique_05"]
+-1 "STARC05-2.10.3.2a" 3
+"TEMPLATE"
+["lint/lint_rtl_enhanced"]
+"RULE_ORDER"
+[50]
+"RULEGROUP"
+["starc2005/s05_Elab_Rules","starc2005/s05_Quality/s05_Quality1","starc2005/RTL_Description_Technique_05/STARC05-2.10.3.2"]
+-1 "STARC05-2.11.3.1" 3
+"TEMPLATE"
+["lint/lint_rtl_enhanced"]
+"RULE_ORDER"
+[51]
+"RULEGROUP"
+["starc2005/s05_Construct/s05_Construct2","starc2005/RTL_Description_Technique_05"]
+-1 "W193" 3
+"TEMPLATE"
+["lint/lint_rtl_enhanced"]
+"RULE_ORDER"
+[87]
+"RULEGROUP"
+["lint/Miscellaneous"]
+-1 "W240" 3
+"TEMPLATE"
+["lint/lint_rtl_enhanced"]
+"RULE_ORDER"
+[94]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Usage"]
+-1 "W444" 3
+"TEMPLATE"
+["lint/lint_rtl_enhanced"]
+"RULE_ORDER"
+[132]
+"RULEGROUP"
+["lint/Expression"]
+-1 "W502" 3
+"TEMPLATE"
+["lint/lint_rtl_enhanced"]
+"RULE_ORDER"
+[145]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Simulation"]
+-1 "W576" 3
+"TEMPLATE"
+["lint/lint_rtl_enhanced"]
+"RULE_ORDER"
+[151]
+"RULEGROUP"
+["lint/Expression"]
+-1 "WRN_69" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "mixedsenselist" 3
+"TEMPLATE"
+["lint/lint_rtl_enhanced"]
+"RULE_ORDER"
+[21]
+"RULEGROUP"
+["lint/Synthesis"]
+-1 "sim_race02" 3
+"TEMPLATE"
+["lint/lint_rtl_enhanced"]
+"RULE_ORDER"
+[34]
+"RULEGROUP"
+["simulation/SimulationRules"]

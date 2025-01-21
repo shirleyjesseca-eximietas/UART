@@ -1,0 +1,7 @@
+INPUT@@/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim/spyglass-1/cdc/cdc_verify_struct/spyglass_reports@@/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim/spyglass-1/html_reports/data_files/@@jtag_idcode@@cdc-cdc_verify_struct@@
+COPY@@/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim/spyglass-1/cdc/cdc_verify_struct/spyglass_reports/moresimple.rpt@@data_files/jtag_idcode_cdc-cdc_verify_struct_moresimple.rpt@@
+COPY@@/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim/spyglass-1/cdc/cdc_verify_struct/spyglass_reports/no_msg_reporting_rules.rpt@@data_files/jtag_idcode_cdc-cdc_verify_struct_no_msg_reporting_rules.rpt@@
+REGEN@@/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim/spyglass-1/cdc/cdc_verify_struct/spyglass_reports/CDC-report.rpt@@data_files/jtag_idcode_cdc-cdc_verify_struct_CDC-report.rpt.html@@
+COPY@@/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim/spyglass-1/cdc/cdc_verify_struct/spyglass_reports/CDC-report.rpt@@data_files/jtag_idcode_cdc-cdc_verify_struct_CDC-report.rpt@@
+PROCESS@@clock-reset@@SpyGlass
+COPY@@/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim/spyglass-1/cdc/cdc_verify_struct/spyglass.log@@data_files/jtag_idcode_cdc-cdc_verify_struct_spyglass.log@@

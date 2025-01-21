@@ -1,0 +1,152 @@
+7 "STARC05-2.1.5.3" 1
+"SPG_MSGTAG_HIERARCHY"
+":jtag_idcode"
+8 "STARC05-2.1.5.3" 1
+"SPG_MSGTAG_HIERARCHY"
+":jtag_idcode"
+10 "sim_race02" 2
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["2@@368","2@@539"]
+11 "sim_race02" 2
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["2@@574","2@@595"]
+12 "sim_race02" 2
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["2@@578","2@@595"]
+13 "sim_race02" 2
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["2@@368","2@@618"]
+14 "sim_race02" 2
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["2@@368","2@@735"]
+15 "sim_race02" 2
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["2@@368","2@@821"]
+16 "W224" 1
+"SPG_MSGTAG_HIERARCHY"
+":jtag_idcode"
+17 "W224" 1
+"SPG_MSGTAG_HIERARCHY"
+":jtag_idcode"
+58 "STARC05-2.10.3.2a" 1
+"SPG_MSGTAG_HIERARCHY"
+":jtag_idcode"
+59 "ErrorAnalyzeBBox" 2
+"BBoxEng"
+["jtag_idcode","BB_SYNTH_ERR"]
+"BBoxEngAuxiInfo"
+["(null)","(null)","(null)"]
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ErrorAnalyzeBBox" 2
+"RULEGROUP"
+["Blackbox Resolution"]
+"BUILTIN"
+"1"
+-1 "ReportPortInfo-ML" 3
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[42]
+"RULEGROUP"
+["morelint"]
+-1 "STARC05-2.1.4.5" 3
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[81]
+"RULEGROUP"
+["starc2005/s05_Quality/s05_Quality1","starc2005/RTL_Description_Technique_05"]
+-1 "STARC05-2.1.5.3" 3
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[44]
+"RULEGROUP"
+["starc2005/s05_Quality/s05_Quality1","starc2005/RTL_Description_Technique_05"]
+-1 "STARC05-2.10.3.2a" 3
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[97]
+"RULEGROUP"
+["starc2005/s05_Elab_Rules","starc2005/s05_Quality/s05_Quality1","starc2005/RTL_Description_Technique_05/STARC05-2.10.3.2"]
+-1 "STARC05-2.11.3.1" 3
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[19]
+"RULEGROUP"
+["starc2005/s05_Construct/s05_Construct2","starc2005/RTL_Description_Technique_05"]
+-1 "TurboModeStatus" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "W224" 3
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[92]
+"RULEGROUP"
+["lint/Expression"]
+-1 "W240" 3
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[53]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Usage"]
+-1 "W502" 3
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[59]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Simulation"]
+-1 "W528" 3
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[94]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Usage"]
+-1 "WRN_69" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "mixedsenselist" 3
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[95]
+"RULEGROUP"
+["lint/Synthesis"]
+-1 "sim_race02" 3
+"TEMPLATE"
+["lint/lint_turbo_rtl"]
+"RULE_ORDER"
+[13]
+"RULEGROUP"
+["simulation/SimulationRules"]

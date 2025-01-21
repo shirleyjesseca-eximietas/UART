@@ -1,0 +1,26 @@
+<Command name="schRTLInfo"  delimiter="."  >
+<RTLBlock >
+<RTLInfo   name="tx_state_0"  type="2"  fileName="../rtl/uart_tx.sv"  >
+    <Seg beginLine="60"  endLine="220"  />
+  </RTLInfo>
+ <Instance name="top.DUT.tx_channel"  />
+</RTLBlock>
+<RTLBlock >
+<RTLInfo   name="rx_state_1"  type="2"  fileName="../rtl/uart_rx.sv"  >
+    <Seg beginLine="90"  endLine="257"  />
+  </RTLInfo>
+ <Instance name="top.DUT.rx_channel"  />
+</RTLBlock>
+<RTLBlock >
+<RTLInfo   name="fsm_state_2"  type="2"  fileName="../rtl/uart_register_file.sv"  >
+    <Seg beginLine="159"  endLine="174"  />
+  </RTLInfo>
+ <Instance name="top.DUT.control"  />
+</RTLBlock>
+<RTLBlock >
+<RTLInfo   name="user_verbosity_3"  type="2"  fileName="/home/synopsys/tools/vcs/W-2024.09/etc/uvm/verdi/uvm_custom_install_verdi_recorder.sv"  >
+    <Seg beginLine="46"  endLine="187"  />
+  </RTLInfo>
+ <Instance name="uvm_custom_install_verdi_recording"  />
+</RTLBlock>
+ </Command>

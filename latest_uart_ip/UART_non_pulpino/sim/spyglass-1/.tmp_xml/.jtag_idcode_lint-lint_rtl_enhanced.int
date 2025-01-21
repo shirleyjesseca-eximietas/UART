@@ -1,0 +1,5 @@
+INPUT@@/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim/spyglass-1/lint/lint_rtl_enhanced/spyglass_reports@@/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim/spyglass-1/html_reports/data_files/@@jtag_idcode@@lint-lint_rtl_enhanced@@
+COPY@@/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim/spyglass-1/lint/lint_rtl_enhanced/spyglass_reports/moresimple.rpt@@data_files/jtag_idcode_lint-lint_rtl_enhanced_moresimple.rpt@@
+COPY@@/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim/spyglass-1/lint/lint_rtl_enhanced/spyglass_reports/no_msg_reporting_rules.rpt@@data_files/jtag_idcode_lint-lint_rtl_enhanced_no_msg_reporting_rules.rpt@@
+PROCESS@@starc2002@@timing@@morelint@@latch@@lint@@simulation@@erc@@starc2005@@starc@@openmore@@SpyGlass
+COPY@@/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim/spyglass-1/lint/lint_rtl_enhanced/spyglass.log@@data_files/jtag_idcode_lint-lint_rtl_enhanced_spyglass.log@@

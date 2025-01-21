@@ -1,0 +1,884 @@
+<CWD>/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim</CWD>
+<ENVVAR>
+	<env name="SHELL">
+		<value>/bin/bash</value>
+	</env>
+	<env name="PRIMETIME">
+		<value>/home/synopsys/tools/prime/W-2024.09-SP1</value>
+	</env>
+	<env name="SESSION_MANAGER">
+		<value>local/unix:@/tmp/.ICE-unix/182736,unix/unix:/tmp/.ICE-unix/182736</value>
+	</env>
+	<env name="COLORTERM">
+		<value>truecolor</value>
+	</env>
+	<env name="SYNOPSYS">
+		<value>/home/synopsys/tools/syn/W-2024.09-SP1</value>
+	</env>
+	<env name="HISTCONTROL">
+		<value>ignoredups</value>
+	</env>
+	<env name="XDG_MENU_PREFIX">
+		<value>gnome-</value>
+	</env>
+	<env name="MPI_LIB">
+		<value>/usr/lib64/mpich/lib</value>
+	</env>
+	<env name="SPYGLASS_ENABLE_SYS_IPC_SERVER">
+		<value>yes</value>
+	</env>
+	<env name="GROUP">
+		<value>sanjeev</value>
+	</env>
+	<env name="MACHTYPE">
+		<value>x86_64</value>
+	</env>
+	<env name="PKG_CONFIG_PATH">
+		<value>/usr/lib64/mpich/lib/pkgconfig</value>
+	</env>
+	<env name="HISTSIZE">
+		<value>1000</value>
+	</env>
+	<env name="HOSTNAME">
+		<value>vlsi</value>
+	</env>
+	<env name="VCS_HOME">
+		<value>/home/synopsys/tools/vcs/W-2024.09</value>
+	</env>
+	<env name="SPYGLASS_TCL_SHELL">
+		<value>ok</value>
+	</env>
+	<env name="SPYGLASS_HOME">
+		<value>/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME</value>
+	</env>
+	<env name="SPYGLASS_USE_SNPSMEM">
+		<value>yes</value>
+	</env>
+	<env name="DOTNET_ROOT">
+		<value>/usr/lib64/dotnet</value>
+	</env>
+	<env name="GUESTFISH_OUTPUT">
+		<value>\e[0m</value>
+	</env>
+	<env name="SSH_AUTH_SOCK">
+		<value>/run/user/1010/keyring/ssh</value>
+	</env>
+	<env name="SPYGLASS_IPC_SERVER_APP_INFO">
+		<value>/tmp/.SPYGLASS_IPC_SERVER_APP_INFO@@851</value>
+	</env>
+	<env name="XMODIFIERS">
+		<value>@im=ibus</value>
+	</env>
+	<env name="VERDI_HOME">
+		<value>/home/synopsys/tools/verdi/W-2024.09</value>
+	</env>
+	<env name="SSH_AGENT_PID">
+		<value>182646</value>
+	</env>
+	<env name="SPYGLASS_SPYAUTH_FILE">
+		<value>/tmp/spyAuthFileList26208791737116851</value>
+	</env>
+	<env name="PWD">
+		<value>/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim</value>
+	</env>
+	<env name="SPYGLASS_IPC_SERVER_APP_PID">
+		<value>2621088</value>
+	</env>
+	<env name="HSPICE_HOME">
+		<value>/home/synopsys/tools/hspice/W-2024.09-SP1</value>
+	</env>
+	<env name="LOGNAME">
+		<value>sanjeev</value>
+	</env>
+	<env name="CMD_FILE_PATH">
+		<value>/tmp/cmdfile_2620879</value>
+	</env>
+	<env name="XDG_SESSION_TYPE">
+		<value>x11</value>
+	</env>
+	<env name="MODULESHOME">
+		<value>/usr/share/Modules</value>
+	</env>
+	<env name="SAVE_PATH">
+		<value>/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/obj:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/bin::/usr/local/bin:/usr/bin:/bin:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/obj:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/bin::/usr/local/bin:/usr/bin:/bin:/home/synopsys/tools/syn/W-2024.09-SP1/bin:/home/synopsys/tools/customcompiler/W-2024.09-SP1/bin:/home/synopsys/tools/hspice/W-2024.09-SP1/bin:/home/synopsys/tools/primewave/W-2024.09-SP1/bin:/home/synopsys/tools/txs/W-2024.09-SP2/bin:/home/synopsys/tools/lc/W-2024.09-SP2/bin:/home/synopsys/tools/prime/W-2024.09-SP1/bin:/home/synopsys/tools/vcs/W-2024.09/etc/uvm-1.2/bin:/home/synopsys/tools/zoix/W-2024.09/bin:/home/synopsys/tools/vcs/W-2024.09/bin:/home/synopsys/tools/vc_static/W-2024.09/bin:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/bin:/home/synopsys/tools/icvalidator/W-2024.09-SP1/bin:/usr/local/bin:/bin:/sbin:/lib:/lib64:/usr/bin:/usr/local/sbin:/usr/bin/X11:/usr/X11R6/lib/X11:/usr/X11R6/bin:.:/home/sanjeev/.local/bin:/home/sanjeev/bin:/usr/lib64/mpich/bin:/usr/share/Modules/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/home/sanjeev/.dotnet/tools</value>
+	</env>
+	<env name="MANPATH">
+		<value>/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/starc/sgtcl/man:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/power_est/sgtcl/man:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/morelint/sgtcl/man:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/lowpower/sgtcl/man:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/lint/sgtcl/man:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/latch/sgtcl/man:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/erc/sgtcl/man:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/dft/sgtcl/man:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/constraints/sgtcl/man:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/clock/sgtcl/man:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/auto-verify/sgtcl/man:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/multi-tcl/man:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/auxi/help_doc/man:/usr/share/man:/usr/share/man/mpich-x86_64::</value>
+	</env>
+	<env name="MPI_COMPILER">
+		<value>mpich-x86_64</value>
+	</env>
+	<env name="SYSTEMD_EXEC_PID">
+		<value>182765</value>
+	</env>
+	<env name="MPI_PYTHON2_SITEARCH">
+		<value>%{python2_sitearch}/mpich</value>
+	</env>
+	<env name="MPI_INCLUDE">
+		<value>/usr/include/mpich-x86_64</value>
+	</env>
+	<env name="GUESTFISH_RESTORE">
+		<value>\e[0m</value>
+	</env>
+	<env name="PULSE_SCRIPT">
+		<value>/etc/xrdp/pulse/default.pa</value>
+	</env>
+	<env name="SPYGLASS_LD_PRELOAD">
+		<value>/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/libreplacemalloc.so</value>
+	</env>
+	<env name="MPI_FORTRAN_MOD_DIR">
+		<value>/usr/lib64/gfortran/modules/mpich</value>
+	</env>
+	<env name="MPI_HOME">
+		<value>/usr/lib64/mpich</value>
+	</env>
+	<env name="LD_PRELOAD">
+		<value/>
+	</env>
+	<env name="SPYGLASS_CHECKER_PID_FILE_VAR">
+		<value>/tmp/.SPYGLASS_CHECKER_PID_FILE@@2620879851</value>
+	</env>
+	<env name="__MODULES_SHARE_MANPATH">
+		<value>:2</value>
+	</env>
+	<env name="HOME">
+		<value>/home/sanjeev</value>
+	</env>
+	<env name="SHLIB_PATH">
+		<value>/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/oa/Linux4:::/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/oa/Linux4:/usr/lib64/mpich/lib::/usr/lib:/lib</value>
+	</env>
+	<env name="SSH_ASKPASS">
+		<value>/usr/libexec/openssh/gnome-ssh-askpass</value>
+	</env>
+	<env name="LANG">
+		<value/>
+	</env>
+	<env name="SAVE_CATALOG">
+		<value>PATH</value>
+	</env>
+	<env name="SYNOPSYS_LC_ROOT">
+		<value>/home/synopsys/tools/lc/W-2024.09-SP2</value>
+	</env>
+	<env name="LS_COLORS">
+		<value>rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:</value>
+	</env>
+	<env name="XDG_CURRENT_DESKTOP">
+		<value>GNOME</value>
+	</env>
+	<env name="SG_CONSOLE_SE">
+		<value>1</value>
+	</env>
+	<env name="__MODULES_LMCONFLICT">
+		<value>mpi/mpich-x86_64&amp;mpi</value>
+	</env>
+	<env name="VTE_VERSION">
+		<value>6402</value>
+	</env>
+	<env name="SPG_CMD_PARSE_TO_GET_SCREEN_OUT_SETTING">
+		<value>no</value>
+	</env>
+	<env name="XRDP_SOCKET_PATH">
+		<value>/run/xrdp/1010</value>
+	</env>
+	<env name="XRDP_PULSE_SOURCE_SOCKET">
+		<value>xrdp_chansrv_audio_in_socket_24</value>
+	</env>
+	<env name="CUSTOMCOMPILER_HOME">
+		<value>/home/synopsys/tools/customcompiler/W-2024.09-SP1</value>
+	</env>
+	<env name="OSTYPE">
+		<value>linux</value>
+	</env>
+	<env name="GUESTFISH_PS1">
+		<value>\[\e[1;32m\]&gt;&lt;fs&gt;\[\e[0;31m\] </value>
+	</env>
+	<env name="TMPDIR">
+		<value/>
+	</env>
+	<env name="GNOME_TERMINAL_SCREEN">
+		<value>/org/gnome/Terminal/screen/793bc437_6df8_4087_a48c_718417d74dd5</value>
+	</env>
+	<env name="UVM_HOME">
+		<value>/home/synopsys/tools/vcs/W-2024.09/etc/uvm-1.2</value>
+	</env>
+	<env name="TXS_HOME">
+		<value>/home/synopsys/tools/txs/W-2024.09-SP2</value>
+	</env>
+	<env name="MPI_SYSCONFIG">
+		<value>/etc/mpich-x86_64</value>
+	</env>
+	<env name="DOTNET_BUNDLE_EXTRACT_BASE_DIR">
+		<value>/home/sanjeev/.cache/dotnet_bundle_extract</value>
+	</env>
+	<env name="SPYGLASS_DW_PATH">
+		<value>/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/dw_support</value>
+	</env>
+	<env name="ZOIX_HOME">
+		<value>/home/synopsys/tools/zoix/W-2024.09</value>
+	</env>
+	<env name="MPI_SUFFIX">
+		<value>_mpich</value>
+	</env>
+	<env name="ICV_HOME_DIR">
+		<value>/home/synopsys/tools/icvalidator/W-2024.09-SP1</value>
+	</env>
+	<env name="XDG_SESSION_CLASS">
+		<value>user</value>
+	</env>
+	<env name="SPYGLASS_LICENSE_QUEUING_INTERVAL">
+		<value>24000 10</value>
+	</env>
+	<env name="SNPSLMD_LICENSE_FILE">
+		<value>27020@vlsi</value>
+	</env>
+	<env name="TERM">
+		<value>xterm-256color</value>
+	</env>
+	<env name="HOST">
+		<value>vlsi</value>
+	</env>
+	<env name="LESSOPEN">
+		<value>||/usr/bin/lesspipe.sh %s</value>
+	</env>
+	<env name="USER">
+		<value>sanjeev</value>
+	</env>
+	<env name="SG_SPYGLASS_DW_PATH">
+		<value>1</value>
+	</env>
+	<env name="MPI_PYTHON_SITEARCH">
+		<value>%{python2_sitearch}/mpich</value>
+	</env>
+	<env name="GNOME_TERMINAL_SERVICE">
+		<value>:1.168</value>
+	</env>
+	<env name="XRDP_SESSION">
+		<value>182035</value>
+	</env>
+	<env name="MODULES_RUN_QUARANTINE">
+		<value>LD_LIBRARY_PATH LD_PRELOAD</value>
+	</env>
+	<env name="LOADEDMODULES">
+		<value>mpi/mpich-x86_64</value>
+	</env>
+	<env name="DISPLAY">
+		<value>:24.0</value>
+	</env>
+	<env name="XRDP_PULSE_SINK_SOCKET">
+		<value>xrdp_chansrv_audio_out_socket_24</value>
+	</env>
+	<env name="SHLVL">
+		<value>6</value>
+	</env>
+	<env name="PRIMEWAVE_HOME">
+		<value>/home/synopsys/tools/primewave/W-2024.09-SP1</value>
+	</env>
+	<env name="MPI_BIN">
+		<value>/usr/lib64/mpich/bin</value>
+	</env>
+	<env name="GUESTFISH_INIT">
+		<value>\e[1;34m</value>
+	</env>
+	<env name="QT_IM_MODULE">
+		<value>ibus</value>
+	</env>
+	<env name="SPG_RANDOM">
+		<value>2620745</value>
+	</env>
+	<env name="SKIP_PLATFORM_CHECK">
+		<value>1</value>
+	</env>
+	<env name="LD_LIBRARY_PATH">
+		<value>/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/auxi:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/auxi/tkgui-new:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/auxi/policy_data/spyglass/design_read:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/Audits:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/adv_lowpower:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/area:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/auto-verify:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/clock:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/constraints:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/cubic_netlist:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/dft:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/dft_dsm:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/erc:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/latch:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/lint:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/lowpower:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/mbist-dft:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/miscellaneous:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/morelint:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/openmore:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/power_est:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/prof:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/rtl2netlist:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/sec:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/simulation:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/spyglass:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/starc:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/starc2002:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/starc2005:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/starcad-21:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/timing:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/txv:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/auxi/tkgui-new/Linux4:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/auxi/rme:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/auxi/rme/Parser:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/auxi/rme/Parser/Linux4:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/multi-perl/lib/5.8.3:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/multi-perl/lib/site_perl/5.8.3:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/auxi/tkgui-new/Linux4:/lib64/tls:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/multi-tcl/lib/Linux4:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/python/Linux4/lib:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/auxi/tkgui-new/Linux4:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/multi-tcl/lib/Linux4::/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/multi-qt/lib/Linux4:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/multi-nlview/Linux4:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/multi-boost/Linux4:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/multi-thirdparty/Linux4:/depot/gcc-4.8.3-patch/lib64:/usr/lib64:/usr/X11R6/lib64:/usr/local/lib64:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/multi-vcst/vcs-mx/linux64/lib:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/oa/Linux4:::/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/oa/Linux4:/usr/lib64/mpich/lib::/usr/lib:/lib:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/zebulib</value>
+	</env>
+	<env name="XDG_RUNTIME_DIR">
+		<value>/run/user/1010</value>
+	</env>
+	<env name="SPG_INTRNL_INVCN">
+		<value>1</value>
+	</env>
+	<env name="S_COLORS">
+		<value>auto</value>
+	</env>
+	<env name="MPI_PYTHON3_SITEARCH">
+		<value>/usr/lib64/python3.9/site-packages/mpich</value>
+	</env>
+	<env name="MPI_MAN">
+		<value>/usr/share/man/mpich-x86_64</value>
+	</env>
+	<env name="TCL_LIBRARY">
+		<value>/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/multi-tcl/lib/tcl</value>
+	</env>
+	<env name="VC_STATIC_HOME">
+		<value>/home/synopsys/tools/vc_static/W-2024.09</value>
+	</env>
+	<env name="which_declare">
+		<value>declare -f</value>
+	</env>
+	<env name="LC_ALL">
+		<value/>
+	</env>
+	<env name="SPYGLASS_PLATFORM">
+		<value>Linux4</value>
+	</env>
+	<env name="XDG_DATA_DIRS">
+		<value>/home/sanjeev/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share</value>
+	</env>
+	<env name="VENDOR">
+		<value>unknown</value>
+	</env>
+	<env name="PATH">
+		<value>/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/../dotty/scripts:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/../dotty/bin/Linux4:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/obj:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/bin::/usr/local/bin:/usr/bin:/bin:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/obj:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/bin::/usr/local/bin:/usr/bin:/bin:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/obj:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/bin::/usr/local/bin:/usr/bin:/bin:/home/synopsys/tools/syn/W-2024.09-SP1/bin:/home/synopsys/tools/customcompiler/W-2024.09-SP1/bin:/home/synopsys/tools/hspice/W-2024.09-SP1/bin:/home/synopsys/tools/primewave/W-2024.09-SP1/bin:/home/synopsys/tools/txs/W-2024.09-SP2/bin:/home/synopsys/tools/lc/W-2024.09-SP2/bin:/home/synopsys/tools/prime/W-2024.09-SP1/bin:/home/synopsys/tools/vcs/W-2024.09/etc/uvm-1.2/bin:/home/synopsys/tools/zoix/W-2024.09/bin:/home/synopsys/tools/vcs/W-2024.09/bin:/home/synopsys/tools/vc_static/W-2024.09/bin:/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/bin:/home/synopsys/tools/icvalidator/W-2024.09-SP1/bin:/usr/local/bin:/bin:/sbin:/lib:/lib64:/usr/bin:/usr/local/sbin:/usr/bin/X11:/usr/X11R6/lib/X11:/usr/X11R6/bin:.:/home/sanjeev/.local/bin:/home/sanjeev/bin:/usr/lib64/mpich/bin:/usr/share/Modules/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/home/sanjeev/.dotnet/tools</value>
+	</env>
+	<env name="MODULEPATH">
+		<value>/etc/scl/modulefiles:/etc/scl/modulefiles:/etc/scl/modulefiles:/etc/scl/modulefiles:/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles</value>
+	</env>
+	<env name="_LMFILES_">
+		<value>/usr/share/modulefiles/mpi/mpich-x86_64</value>
+	</env>
+	<env name="DBUS_SESSION_BUS_ADDRESS">
+		<value>unix:path=/run/user/1010/bus</value>
+	</env>
+	<env name="MAIL">
+		<value>/var/spool/mail/sanjeev</value>
+	</env>
+	<env name="HOSTTYPE">
+		<value>x86_64-linux</value>
+	</env>
+	<env name="UID">
+		<value>1010</value>
+	</env>
+	<env name="SPYGLASS_TMPDIR">
+		<value>/tmp</value>
+	</env>
+	<env name="MODULES_CMD">
+		<value>/usr/share/Modules/libexec/modulecmd.tcl</value>
+	</env>
+	<env name="BASH_FUNC_ml%%">
+		<value>() {  module ml &quot;$@&quot;
+}</value>
+	</env>
+	<env name="BASH_FUNC_which%%">
+		<value>() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}</value>
+	</env>
+	<env name="BASH_FUNC_module%%">
+		<value>() {  _module_raw &quot;$@&quot; 2&gt;&amp;1
+}</value>
+	</env>
+	<env name="BASH_FUNC_scl%%">
+		<value>() {  if [ &quot;$1&quot; = &quot;load&quot; -o &quot;$1&quot; = &quot;unload&quot; ]; then
+ eval &quot;module $@&quot;;
+ else
+ /usr/bin/scl &quot;$@&quot;;
+ fi
+}</value>
+	</env>
+	<env name="BASH_FUNC__module_raw%%">
+		<value>() {  eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash &quot;$@&quot;`;
+ _mlstatus=$?;
+ return $_mlstatus
+}</value>
+	</env>
+	<env name="_">
+		<value>/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/obj/check.Linux4</value>
+	</env>
+	<env name="CONCORDE_HOME">
+		<value>DUMMY_CONCORDE_HOME</value>
+	</env>
+	<env name="FLEXLM_BORROWFILE">
+		<value>/home/sanjeev/.vlsi-borrow.txt</value>
+	</env>
+	<env name="FLEXLM_DIAGNOSTICS">
+		<value>3</value>
+	</env>
+	<env name="METHODOLOGY_HOME">
+		<value>/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff</value>
+	</env>
+</ENVVAR>
+<ENVFILE>./spyglass-1/lint/lint_abstract//.sg.env</ENVFILE>
+<SPG_VERSION>SpyGlass_vW-2024.09</SPG_VERSION>
+<MACHINE name="vlsi" version="#1 SMP PREEMPT_DYNAMIC Tue Nov 15 07:49:10 EST 2022"/>
+<Options>
+	<Opt name="--template_info">
+		<value>lint/lint_abstract</value>
+	</Opt>
+	<Opt name="-lib">
+		<value>WORK=&gt;./spyglass-1/WORK</value>
+		<value>SYNOPSYS=&gt;/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/vhdl_libs/Linux4/SYNOPSYS</value>
+	</Opt>
+	<Opt name="-m">
+		<value>SpyGlass::Compatibility::v2_7_3</value>
+		<value>SpyGlass::Compatibility::v2_7_3</value>
+		<value>SpyGlass::Compatibility::v2_7_3</value>
+	</Opt>
+	<Opt name="-policy">
+		<value>lint</value>
+	</Opt>
+	<Opt name="-report">
+		<value>moresimple</value>
+		<value>runsummary</value>
+	</Opt>
+	<Opt name="-rules">
+		<value>LINT_abstract01</value>
+	</Opt>
+	<Opt name="-template">
+		<value>lint/lint_abstract</value>
+	</Opt>
+	<Opt name="-verilog_files">
+		<value>../../Jtag/src/boundary.v</value>
+		<value>../../Jtag/src/jtag.v</value>
+	</Opt>
+	<Opt name="+vlogarg">
+		<value>+suppress+36</value>
+	</Opt>
+	<Opt name="--stime">
+		<value>05:57:31 PM on Jan 17 2025</value>
+	</Opt>
+	<Opt name="-blackboxdir">
+		<value>inout</value>
+	</Opt>
+	<Opt name="-dbdir">
+		<value>./spyglass-1/.SG_SaveRestoreDB</value>
+	</Opt>
+	<Opt name="-debuglevel">
+		<value>0</value>
+	</Opt>
+	<Opt name="-enable_save_restore_builtin">
+		<value>true</value>
+	</Opt>
+	<Opt name="-gateslibtype">
+		<value>0</value>
+	</Opt>
+	<Opt name="-logfile">
+		<value>./spyglass-1/lint/lint_abstract/spyglass.log</value>
+	</Opt>
+	<Opt name="-mthresh">
+		<value>4096</value>
+	</Opt>
+	<Opt name="-projectwdir">
+		<value>./spyglass-1</value>
+	</Opt>
+	<Opt name="-savedb">
+		<value>./spyglass-1/.SG_SaveRestoreDB</value>
+	</Opt>
+	<Opt name="-sortmethod">
+		<value>du</value>
+	</Opt>
+	<Opt name="-templatedir">
+		<value>/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff</value>
+	</Opt>
+	<Opt name="-vdbfile">
+		<value>./spyglass-1/lint/lint_abstract/spyglass.vdb</value>
+	</Opt>
+	<Opt name="-wdir">
+		<value>./spyglass-1/lint/lint_abstract</value>
+	</Opt>
+	<Opt name="-work">
+		<value>WORK</value>
+	</Opt>
+	<Opt name="-64bit">
+		<value>yes</value>
+	</Opt>
+	<Opt name="--end_of_user_arg">
+		<value>yes</value>
+	</Opt>
+	<Opt name="-batch">
+		<value>yes</value>
+	</Opt>
+	<Opt name="-block_abstract">
+		<value>yes</value>
+	</Opt>
+	<Opt name="-enable_save_restore">
+		<value>yes</value>
+	</Opt>
+	<Opt name="-force_save">
+		<value>yes</value>
+	</Opt>
+	<Opt name="-inferblackbox">
+		<value>yes</value>
+	</Opt>
+	<Opt name="-nl">
+		<value>yes</value>
+	</Opt>
+	<Opt name="-sdc2sgdc">
+		<value>yes</value>
+	</Opt>
+	<Opt name="-mixed">
+		<value>yes</value>
+	</Opt>
+</Options>
+<TOP_MODULE/>
+<GOAL_NAME>lint/lint_abstract</GOAL_NAME>
+<FILES/>
+<SPG_LOG>./spyglass-1/lint/lint_abstract/spyglass.log</SPG_LOG>
+<CMD_STRING> -batch -project spyglass-1.prj -goal lint/lint_abstract -64bit</CMD_STRING>
+<Module_Perf>
+	<Module name="boundary">
+		<Memory>-134696</Memory>
+		<Time>0</Time>
+	</Module>
+</Module_Perf>
+<NOM_DESIGN>
+	<Modules>1</Modules>
+	<Instances>5</Instances>
+	<Nets>11</Nets>
+	<Terminals>16</Terminals>
+	<MAX>5</MAX>
+	<Avg>5</Avg>
+</NOM_DESIGN>
+<BlackBox>
+	<BBOX>
+		<SEVERITY>ERROR</SEVERITY>
+		<SEV_CODE>17</SEV_CODE>
+		<CAUSE>jtag_idcode,jtag_idcode,SYNTH_154 error(s) found during analysis</CAUSE>
+		<ELABNAME>jtag_idcode</ELABNAME>
+		<RTLNAME>jtag_idcode</RTLNAME>
+	</BBOX>
+</BlackBox>
+<WAIVER_COUNT>
+	<Applied>0</Applied>
+	<Reduntant>0</Reduntant>
+	<Viol_Waived>0</Viol_Waived>
+</WAIVER_COUNT>
+<PEAK_MEMORY>3778676</PEAK_MEMORY>
+<Parameters>
+	<Param name="-allow_cascaded_cgc">
+		<DefaultValue>UNDEFINED</DefaultValue>
+		<Value>no</Value>
+	</Param>
+	<Param name="-allow_clock_on_output_port">
+		<DefaultValue>no</DefaultValue>
+		<Value>no</Value>
+	</Param>
+	<Param name="-check_clock_group_violations">
+		<DefaultValue>no</DefaultValue>
+		<Value>no</Value>
+	</Param>
+	<Param name="-debug_proc">
+		<DefaultValue>no</DefaultValue>
+		<Value>no</Value>
+	</Param>
+	<Param name="-disable_latch_corssing">
+		<DefaultValue>yes</DefaultValue>
+		<Value>yes</Value>
+	</Param>
+	<Param name="-enable_seq_count">
+		<DefaultValue>no</DefaultValue>
+		<Value>no</Value>
+	</Param>
+	<Param name="-enable_unique_master_type">
+		<DefaultValue>no</DefaultValue>
+		<Value>no</Value>
+	</Param>
+	<Param name="-force_genclk_for_txv">
+		<DefaultValue>no</DefaultValue>
+		<Value>no</Value>
+	</Param>
+	<Param name="-latch_effort_level">
+		<DefaultValue>-1</DefaultValue>
+		<Value>-1</Value>
+	</Param>
+	<Param name="-library_gen_clock_naming">
+		<DefaultValue>yes</DefaultValue>
+		<Value>yes</Value>
+	</Param>
+	<Param name="-lp_ignore_SGDC_rules">
+		<DefaultValue>UNDEFINED</DefaultValue>
+		<Value>UNDEFINED</Value>
+	</Param>
+	<Param name="-lp_instr_disable_isolation">
+		<DefaultValue>UNDEFINED</DefaultValue>
+		<Value>UNDEFINED</Value>
+	</Param>
+	<Param name="-lp_instr_disable_level_shift">
+		<DefaultValue>UNDEFINED</DefaultValue>
+		<Value>UNDEFINED</Value>
+	</Param>
+	<Param name="-lp_instr_disable_retention">
+		<DefaultValue>UNDEFINED</DefaultValue>
+		<Value>UNDEFINED</Value>
+	</Param>
+	<Param name="-netlist_clock_polarity">
+		<DefaultValue>yes</DefaultValue>
+		<Value>yes</Value>
+	</Param>
+	<Param name="-pe_calibration_data_dir">
+		<DefaultValue>UNDEFINED</DefaultValue>
+		<Value>UNDEFINED</Value>
+	</Param>
+	<Param name="-pe_ignore_SGDC_rules">
+		<DefaultValue>UNDEFINED</DefaultValue>
+		<Value>UNDEFINED</Value>
+	</Param>
+	<Param name="-pe_use_calibration_data">
+		<DefaultValue>UNDEFINED</DefaultValue>
+		<Value>UNDEFINED</Value>
+	</Param>
+	<Param name="-populate_comboelements_for_minmax_in_fromto">
+		<DefaultValue>no</DefaultValue>
+		<Value>no</Value>
+	</Param>
+	<Param name="-post_clock_group_population">
+		<DefaultValue>no</DefaultValue>
+		<Value>no</Value>
+	</Param>
+	<Param name="-preserve_path">
+		<DefaultValue>no</DefaultValue>
+		<Value>no</Value>
+	</Param>
+	<Param name="-pt">
+		<DefaultValue>yes</DefaultValue>
+		<Value>yes</Value>
+	</Param>
+	<Param name="-qual_prop_beyond_quasi_dest">
+		<DefaultValue>UNDEFINED</DefaultValue>
+		<Value>no</Value>
+	</Param>
+	<Param name="-show_all_sdc_violations">
+		<DefaultValue>no</DefaultValue>
+		<Value>no</Value>
+	</Param>
+	<Param name="-show_sdc_progress">
+		<DefaultValue>no</DefaultValue>
+		<Value>no</Value>
+	</Param>
+	<Param name="-suppress_sdc_violation_in_abstract">
+		<DefaultValue>no</DefaultValue>
+		<Value>no</Value>
+	</Param>
+	<Param name="-tc_cache_empty_collections">
+		<DefaultValue>no</DefaultValue>
+		<Value>no</Value>
+	</Param>
+	<Param name="-tc_disable_caching">
+		<DefaultValue>no</DefaultValue>
+		<Value>no</Value>
+	</Param>
+	<Param name="-tc_disable_ignored_command_dump">
+		<DefaultValue>yes</DefaultValue>
+		<Value>yes</Value>
+	</Param>
+	<Param name="-tc_enable_sdc_393">
+		<DefaultValue>no</DefaultValue>
+		<Value>no</Value>
+	</Param>
+	<Param name="-tc_ignored_commands">
+		<DefaultValue>unspecified</DefaultValue>
+		<Value>unspecified</Value>
+	</Param>
+	<Param name="-tc_stop_parsing_ignored_commands">
+		<DefaultValue>yes</DefaultValue>
+		<Value>yes</Value>
+	</Param>
+	<Param name="-truncate_through">
+		<DefaultValue>yes</DefaultValue>
+		<Value>yes</Value>
+	</Param>
+	<Param name="-use_new_flow">
+		<DefaultValue>yes</DefaultValue>
+		<Value>yes</Value>
+	</Param>
+	<Param name="-write_sdc">
+		<DefaultValue>no</DefaultValue>
+		<Value>no</Value>
+	</Param>
+</Parameters>
+<RULES>
+	<Rule name="Ac_svasetup01">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="AcOvlRtl">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="AcOvlRtl">
+		<Time>0</Time>
+		<Memory>128</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="_meta_delay01">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="_vhMeta01">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="SGDC_meta_design_hier01">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="Ac_multitop01">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="_deltaDelay">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="_deltaDelay">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="_syncResetStyleRTL">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="Ac_classify_param01">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="Pragma_setupa">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="_cdc_save_license01">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="PEMVDD01">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="PECHECK56">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="PECHECK43">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="PECHECK18">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="PECHECK09">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="PESVASETUP01">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="PECHECK04">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="SGDC_power_est29">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="TxvVhMeta01">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="Txv_SvaSetup01">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="CondOpInReset-ML">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="Prereqs_ConstantInput-ML">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="Prereqs_ConstantInput-ML">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="ResetFlop-ML">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="Prereqs_RTLSchematic">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="Prereqs_Usage">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="LINT_abstract01">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>0</Count>
+	</Rule>
+	<Rule name="SYNTH_154">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>1</Count>
+	</Rule>
+	<Rule name="WRN_69">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>1</Count>
+	</Rule>
+	<Rule name="ElabSummary">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>1</Count>
+	</Rule>
+	<Rule name="ErrorAnalyzeBBox">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>1</Count>
+	</Rule>
+	<Rule name="DetectTopDesignUnits">
+		<Time>0</Time>
+		<Memory>0</Memory>
+		<Count>1</Count>
+	</Rule>
+</RULES>
+<RUN_MODE>
+	<Save>1</Save>
+</RUN_MODE>
+<REPORTS>
+	<Report name="moresimple">
+		<value>./spyglass-1/lint/lint_abstract/spyglass_reports/moresimple.rpt</value>
+	</Report>
+	<Report/>
+	<Report name="no_msg_reporting_rules">
+		<value>./spyglass-1/lint/lint_abstract/spyglass_reports/no_msg_reporting_rules.rpt</value>
+	</Report>
+</REPORTS>
+<VIOL_SUMMARY>
+	<FATAL>0</FATAL>
+	<ERROR>2</ERROR>
+	<WARNING>1</WARNING>
+	<INFO>2</INFO>
+</VIOL_SUMMARY>
+<Exit_code>0</Exit_code>
+<Total_time>648</Total_time>

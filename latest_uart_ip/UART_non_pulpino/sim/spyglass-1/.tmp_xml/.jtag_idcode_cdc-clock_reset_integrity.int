@@ -1,0 +1,6 @@
+INPUT@@/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim/spyglass-1/cdc/clock_reset_integrity/spyglass_reports@@/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim/spyglass-1/html_reports/data_files/@@jtag_idcode@@cdc-clock_reset_integrity@@
+COPY@@/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim/spyglass-1/cdc/clock_reset_integrity/spyglass_reports/moresimple.rpt@@data_files/jtag_idcode_cdc-clock_reset_integrity_moresimple.rpt@@
+COPY@@/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim/spyglass-1/cdc/clock_reset_integrity/spyglass_reports/no_msg_reporting_rules.rpt@@data_files/jtag_idcode_cdc-clock_reset_integrity_no_msg_reporting_rules.rpt@@
+REGEN@@/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim/spyglass-1/cdc/clock_reset_integrity/spyglass_reports/CDC-report.rpt@@data_files/jtag_idcode_cdc-clock_reset_integrity_CDC-report.rpt.html@@
+PROCESS@@clock-reset@@SpyGlass
+COPY@@/home/sanjeev/dv_work/DV_VLSI/UART_non_pulpino/sim/spyglass-1/cdc/clock_reset_integrity/spyglass.log@@data_files/jtag_idcode_cdc-clock_reset_integrity_spyglass.log@@

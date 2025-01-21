@@ -1,0 +1,45 @@
+SCHEMA@@PName@@Dir@@Msb@@Lsb@@Desc@@DU@@DU_BBOX
+VALUE@@clk@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@rst@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@tms@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@tdi@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@mode@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@parallel_in1@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@parallel_in2@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@parallel_in3@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@parallel_in4@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@parallel_in5@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@parallel_in6@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@serial_in1@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@serial_in2@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@serial_in3@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@serial_in4@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@serial_in5@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@serial_in6@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@clamp_en@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@SI@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@PI@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@tdo@@OUTPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@si@@INPUT@@0@@0@@input [14:0] MBIST_PI,@@jtag_idcode@@No
+VALUE@@data@@INPUT@@7@@0@@-@@jtag_idcode@@No
+VALUE@@data_out@@OUTPUT@@7@@0@@-@@jtag_idcode@@No
+VALUE@@we@@INPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@waddr@@INPUT@@2@@0@@-@@jtag_idcode@@No
+VALUE@@raddr@@INPUT@@2@@0@@-@@jtag_idcode@@No
+VALUE@@parallel_clamp1@@OUTPUT@@0@@0@@output reg [14:0] MBIST_PO,@@jtag_idcode@@No
+VALUE@@parallel_clamp2@@OUTPUT@@0@@0@@output reg [14:0] MBIST_PO,@@jtag_idcode@@No
+VALUE@@parallel_clamp3@@OUTPUT@@0@@0@@output reg [14:0] MBIST_PO,@@jtag_idcode@@No
+VALUE@@parallel_out1@@OUTPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@parallel_out2@@OUTPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@parallel_out3@@OUTPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@parallel_out4@@OUTPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@parallel_out5@@OUTPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@parallel_out6@@OUTPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@serial_out1@@OUTPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@serial_out2@@OUTPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@serial_out3@@OUTPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@serial_out4@@OUTPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@serial_out5@@OUTPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@serial_out6@@OUTPUT@@0@@0@@-@@jtag_idcode@@No
+VALUE@@ns@@OUTPUT@@3@@0@@-@@jtag_idcode@@No
+VALUE@@ps@@OUTPUT@@3@@0@@-@@jtag_idcode@@No
